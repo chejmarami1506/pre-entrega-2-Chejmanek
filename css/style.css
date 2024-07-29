@@ -61,8 +61,22 @@ h1{
 
 /* cards */
 
-.container-card{
+.container-card-index{
 	width: 100%;
+	display: flex;
+	margin: auto;
+    object-fit: contain;
+    background-color: rgba(128, 128, 128, 0.616);
+}
+.container-card-index-0{
+    width: 100%;
+	display: flex;
+	margin: auto;
+    object-fit: contain;
+    background-color: rgba(128, 128, 128, 0.616);
+}
+.container-card-index-1{
+    width: 100%;
 	display: flex;
 	margin: auto;
     object-fit: contain;
@@ -90,13 +104,6 @@ h1{
 	transform: translateY(-3%);
 }
 
-.container-card-0{
-    width: 100%;
-	display: flex;
-	margin: auto;
-    object-fit: contain;
-    background-color: rgba(128, 128, 128, 0.616);
-}
 
 .img-change-1{
     object-fit: contain;
@@ -362,7 +369,7 @@ a{
 
 .photo-0{
     width: 100%;
-    max-width: 2880px;
+    max-width: 4000px;
     max-height: 500px;
 }
 .section-final{
@@ -370,13 +377,13 @@ a{
     background-color: lightblue;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: 50px;
 
 }
 
 .imgs-final{
     display: flex;
+    justify-content: flex-end;
     background-color: lightblue;
 }
 
@@ -454,7 +461,7 @@ a{
 /* Laptop  */
 @media (min-width:1024px) and (max-width:1036px){
     .navbar{
-        font-size: 25px;
+        font-size: 15px;
     }
     h4{
         font-size: 35px;
@@ -467,58 +474,79 @@ a{
 /* Tablet */
 @media (min-width:768px) and (max-width:1034px){
     .section-principal{
-        width: 1000px;
+        width: 1300px;
     }
     .section-secundario{
-        width: 800px;
+        width: 1024px;
     }
     .img-0{
-        width: 1000px;
+        width: 1300px;
     }
     .h-1{
-        width: 1000px;
+        width: 1100px;
         justify-content: center;
         
     }
-    .container-card{
+    .container-card-index{
         flex-direction: row;
-        max-width: 950px;
-        width: 820px;
+        max-width: 1025px;
+        width: 4000px;
         margin: 2px;
     }
-    .container-card-0{
+    .container-card-index-0{
         flex-direction: row;
-        max-width: 950px;
-        width: 820px;
+        max-width: 1025px;
+        width: 4000px;
         margin: 2px;
     }
-    .imgs-final img {
-        height: 20px;
-        margin: 5px;
+    .container-card-index-1{
+        flex-direction: row;
+        max-width: 1025px;
+        width: 4000px;
+        margin: 2px;
+    }
+    .photo-0{
+    width: 4000px;
+
+    }
+    .section-final{
+    }
+    .imgs-final{
+        width: 4000px;
+        max-width: 1025px;
+        height: 25px;
     }
 }
 
 /* Mobile L */
 @media (min-width:425px) and (max-width:518px) {
+    .img-0{
+        width: 800px;
+        max-height: 500px;
+    }
     .container-card{
         flex-direction: column;
-        max-width: 400px;
-        width: 300px;
+        max-width: 600px;
+        width: 400px;
+        background: 100%;
     }
     .container-card-0{
         flex-direction: column;
-        max-width: 400px;
-        width: 300px;
+        max-width: 600px;
+        width: 400px;
     }
     .section-final h2{
         flex-direction: row;
         justify-content: center;
         font-weight: 150px;
         font-size: medium;
-        
+    }
+    .photo-0{
+        max-width: 600px;
     }
     .h-1{
         height: 40px;
+        object-fit: contain;
     }
     .imgs-final img {
         height: 15px;
@@ -529,12 +557,17 @@ a{
 
 /* Mobile M */
 @media (min-width:375px) and (max-width:518px){
-    .container-card{
+    .container-card-index{
         flex-direction: column;
         max-width: 300px;
         width: 280px;
     }
-    .container-card-0{
+    .container-card-index-0{
+        flex-direction: column;
+        max-width: 300px;
+        width: 280px;
+    }
+    .container-card-index-1{
         flex-direction: column;
         max-width: 300px;
         width: 280px;
@@ -564,6 +597,11 @@ a{
         max-width: 250px;
         width: 235px;
     }
+    .container-card-1{
+        flex-direction: column;
+        max-width: 250px;
+        width: 235px;
+    }
     .section-final h2{
         flex-direction: row;
         justify-content: center;
@@ -587,53 +625,83 @@ a{
 
 /* 4k  */
 @media (min-width:2560px) and (max-width:2585px){
-    .referente{
-        margin-right: 1000px;
-    }
     .info-1{
-        width: 1450px;
+        width: 2550px;
         margin-right: 1000px;
-    }
-    .section-final h2{
-        margin-right: 1000px;
+        
     }
     .imgs-final img{
-        margin-right: 1000px;
-        height: 15px;
+        margin-right: 500px;
+        height: 40px;
         margin: 5px;
     }
 }
 
 /* Laptop L */
-@media (min-width:1440px) and (max-width:1477px){
-    
-}
+
 
 /* Laptop  */
 @media (min-width:1024px) and (max-width:1036px){
     
+    .navbar{
+        width: 100%;
+    }
 }
 
 /* Tablet */
 @media (min-width:768px) and (max-width:1034px){
-    
+    .section-secundario{
+        width: 1300px;
+    }
+    .referente{
+        width: 1300px;
+    }
+    .info-1{
+        width: 1290px;
+    }
+    .section-final{
+        width: 1300px;
+    }
+    .imgs-final{
+        width: 2000px;
+        max-width: 1300px;
+        
+    }
 }
 
 /* Mobile L */
 @media (min-width:425px) and (max-width:518px) {
-    
+    .referente{
+        font-size: 20px;
+    }
+    .info-1{
+        font-size: 20px;
+    }
 }
 
 
 /* Mobile M */
 @media (min-width:375px) and (max-width:518px){
-    
+    .referente{
+        font-size: 20px;
+    }
+    .info-1{
+        font-size: 20px;
+    }
 }
 
 
 /* Mobile S */
 @media (min-width:320px) and (max-width:518px){
-    
+    .referente{
+        font-size: 50px;
+    }
+    .info-1{
+        font-size: 30px;
+    }
+    a{
+        font-size: 20px;
+    }
 }
 
 
