@@ -1,0 +1,25 @@
+
+.photo-final{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-0{
+    width: 100%;
+    max-width: 4000px;
+    max-height: 500px;
+}
+.section-final{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+.imgs-final{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+}
