@@ -1,12 +1,19 @@
 
+/*BASE*/
     @import url(./base/_reset.scss);
+    @import url(./base/_links.scss);
+    @import url(./base/_typografias.scss);
 
 
+/*LAYOUT*/
     @import url(./layout/_header.scss);
     @import url(./layout/_main-index.scss);
     @import url(./layout/_footer.scss);
 
+/*COMPONENTS*/
     @import url(./components/_navbar.scss);
     @import url(./components/_button.scss);
+    @import url(./components/_images.scss);
 
+/*MEDIA*/
     @import url(./layout/media/_media320.scss);
