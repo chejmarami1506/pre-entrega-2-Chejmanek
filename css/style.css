@@ -1,0 +1,16 @@
+/*BASE*/
+@import url(./base/reset.scss);
+@import url(./base/links.scss);
+@import url(./base/typografias.scss);
+@import url(./base/base.scss);
+/*LAYOUT*/
+@import url(./layout/header.scss);
+@import url(./layout/main.index.scss);
+@import url(./layout/footer.scss);
+/*COMPONENTS*/
+@import url(./components/navbar.scss);
+@import url(./components/button.scss);
+@import url(./components/images.scss);
+@import url(./components/forms.scss);
+/*MEDIA*/
+@import url(./layout/media/media320.scss);
