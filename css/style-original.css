@@ -7,7 +7,7 @@
 /* border-botom: 1px solid red; asi ver que eslo que hace que desborde para el responsive*/
 
 /* FORMULARIO DE CONTACTO */
-main {
+.main {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;

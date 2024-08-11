@@ -1,8 +1,9 @@
-h1{
+.h1-nombre{
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: unset;
-    color: white;
+    color: rgb(14, 12, 12);
+    background-color: gray;
 }
 
 .h-1{
@@ -16,6 +17,9 @@ h1{
 
 .h1-contacto {
     margin-bottom: 20px;
+    color: black;
+    padding: 20px;
+
 }
 .h4-1{
     font-size: 45px;
@@ -39,21 +43,13 @@ h3{
     font-size: 95px;
 }
 
-.referente{
-    font-size: 60px;
-    font-style: italic;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
 .info-1{
     font-size: 40px;
-    margin: 100px 15px 15px 10px;
+    background-color: beige; width: 50%;
+    margin-bottom: 40px;
+    background-repeat: round;
     display: flex;
     justify-content: center;
-    background-image: url(../assets/img/fondo-1.png);
-    background-repeat: round;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+

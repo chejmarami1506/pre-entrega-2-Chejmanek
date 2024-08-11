@@ -131,11 +131,31 @@
     }
 }
 
+/*                  HTML 2                         */
+
+@media (max-width:1024px){
+    .container-card-a{
+        width: 1050px;
+    }
+    .container-card-b{
+        width: 1050px;
+    }
+    .menu-icon{
+        width: 1050px;
+    }
+    .section-final{
+        width: 500px;
+    }
+
+}
+
+
 
 /*                  HTML 5                 */
 
 
 /* Laptop  */
+
 @media (min-width:1024px) and (max-width:1036px){
     
     .navbar{
