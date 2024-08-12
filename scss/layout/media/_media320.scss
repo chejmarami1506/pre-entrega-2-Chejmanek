@@ -1,5 +1,37 @@
 
+/*HTML INDEX*/
+@media (max-width:768px){
+    .cointainer-card-index{
+        flex-wrap: wrap;
+    }
+    .cointainer-card-index-0{
+        flex-wrap: wrap;
+    }
+    .cointainer-card-index-1{
+        flex-wrap: wrap;
+    }
+    .input{
+        padding: 5px;
+    }
+}
+@media (max-width:325px){
+    .input{
+        padding: 2px;
 
+    }
+    .input img{
+        width: 10px;
+        right: .3125rem;
+    }
+
+}
+
+/*HTML NIKE*/
+@media (max-width:960px){
+    .input{
+        margin-bottom: 20px;
+    }
+}
 /*HTML TIENDA*/
 
 @media (max-width:1440px){
@@ -10,6 +42,13 @@
 /*HTML CONTACTO */
 
 /*TABLET*/
+@media (max-width:977px) and (min-width:769px){
+    .div-contactos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 @media (max-width:768px){
     .div-contactos{
         margin-left: 50px;
