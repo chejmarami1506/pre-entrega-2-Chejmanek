@@ -1,209 +1,35 @@
 
-/*                      HTML 1                      */
 
-/* Laptop  */
-@media (min-width:518px) and (max-width:1024px){
-    .navbar{
-        font-size: 15px;
-    }
-    h4{
+/*HTML TIENDA*/
+
+@media (max-width:1440px){
+    .h4-a{
         font-size: 35px;
     }
-    h5{
-        font-size: 25px;
-    }
 }
+/*HTML CONTACTO */
 
-/* Tablet */
-@media (min-width:768px) and (max-width:1034px){
-    .section-principal{
-        width: 1300px;
-    }
-    .section-secundario{
-        width: 1024px;
-    }
-    .img-0{
-        width: 1300px;
-    }
-    .h-1{
-        width: 1100px;
-        justify-content: center;
-        
-    }
-    .container-card-index{
-        flex-direction: row;
-        max-width: 1025px;
-        width: 4000px;
-        margin: 2px;
-    }
-    .container-card-index-0{
-        flex-direction: row;
-        max-width: 1025px;
-        width: 4000px;
-        margin: 2px;
-    }
-    .container-card-index-1{
-        flex-direction: row;
-        max-width: 1025px;
-        width: 4000px;
-        margin: 2px;
-    }
-    .photo-0{
-    width: 4000px;
-    }
-    .imgs-final{
-        width: 4000px;
-        max-width: 1025px;
-        height: 25px;
-    }
-}
+/*TABLET*/
+@media (max-width:768px){
+    .div-contactos{
+        margin-left: 50px;
+        align-items: center;
 
-/* Mobile L */
-/* @media (min-width:425px) and (max-width:518px) {
-    .img-0{
-        width: 800px;
-        max-height: 500px;
-    }
-    .container-card{
-        flex-direction: column;
-        max-width: 600px;
-        width: 400px;
-        background: 100%;
-    }
-    .container-card-0{
-        flex-direction: column;
-        max-width: 600px;
-        width: 400px;
-    }
-    .section-final h2{
-        flex-direction: row;
-        justify-content: center;
-        font-weight: 150px;
-        font-size: medium;
-    }
-    .photo-0{
-        max-width: 600px;
-    }
-    .h-1{
-        height: 40px;
-        object-fit: contain;
-    }
-    .imgs-final img {
-        height: 15px;
-        margin: 5px;
-    }
-} */
-
-
-
-/* Mobile S */
-@media (min-width:320px) and (max-width:518px){
-    .container-card{
-        flex-direction: column;
-        max-width: 250px;
-        width: 235px;
-    }
-    .container-card-0{
-        flex-direction: column;
-        max-width: 250px;
-        width: 235px;
-    }
-    .container-card-1{
-        flex-direction: column;
-        max-width: 250px;
-        width: 235px;
-    }
-    .section-final h2{
-        flex-direction: row;
-        justify-content: center;
-        font-weight: 55px;
-        font-size: small;
-        
-    }
-    .h-1{
-        height: 20px;
-        width: 100%;
-        font-size: medium;
-    }
-    .imgs-final img {
-        height: 15px;
-        margin: 5px;
-    }
-}
-
-/*                  HTML 2                         */
-
-@media (max-width:1024px){
-    .container-card-a{
-        width: 1050px;
-    }
-    .container-card-b{
-        width: 1050px;
-    }
-    .menu-icon{
-        width: 1050px;
-    }
-    .section-final{
-        width: 500px;
-    }
-
-}
-
-
-
-/*                  HTML 5                 */
-
-
-/* Laptop  */
-
-@media (min-width:1024px) and (max-width:1036px){
-    
-    .navbar{
-        width: 100%;
-    }
-}
-
-/* Tablet */
-@media (min-width:768px) and (max-width:1034px){
-    .section-secundario{
-        width: 1300px;
-    }
-    .referente{
-        width: 1300px;
-    }
-    .info-1{
-        width: 1290px;
-    }
-    .section-final{
-        width: 1300px;
-    }
-    .imgs-final{
-        width: 2000px;
-        max-width: 1300px;
-        
-    }
-}
-
-/* Mobile L */
-/* @media (min-width:425px) and (max-width:518px) {
-    .referente{
-        font-size: 20px;
-    }
-    .info-1{
-        font-size: 20px;
-    }
-} */
-
-/* Mobile S */
-@media (min-width:320px) and (max-width:518px){
-    .referente{
-        font-size: 50px;
-    }
-    .info-1{
-        font-size: 30px;
     }
     a{
         font-size: 20px;
+        width: 175px;
+    }
+    .info-1{
+        width: 80%;
     }
 }
 
+@media (max-width:425){
+    .div-contactos{
+        flex-wrap: wrap;
+    }
+    .info-1{
+        font-size: 10px;
+    }
+}

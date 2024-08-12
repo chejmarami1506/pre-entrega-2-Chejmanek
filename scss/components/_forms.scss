@@ -19,23 +19,27 @@ textarea {
     font-size: 16px;
 }
 
-.div-1 input{
+
+.input{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.input input{
     all: unset;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    padding-right: .0625rem;
+    box-sizing: border-box;
 }
 
-.div-1{
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.div-contactos{
-    width: 80%;
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
+.input img{
+    position: absolute;
+    right: 0.5rem;
+    width: 16px;
 }

@@ -69,25 +69,29 @@ header {
     position: relative;
 }
 
-.div-1{
+
+/* lupa hecho por el profe */
+.input{
     position: relative;
-    display: flex;
+    width: 12.5rem;
+    /* display: flex;
     justify-content: flex-end;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 10px; */
 }
 
-.div-1 input{
+.input input{
     all: unset;
     border-bottom: 1px solid black;
 }
 
-.div-1 img{
+.input img{
     position: absolute;
     top: 0;
     right: 32px;
     width: 16px;
 }
+/* fin lupa del profe */
 
 
 body {
