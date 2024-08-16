@@ -21,6 +21,63 @@
     background-color: rgba(128, 128, 128, 0.616);
 }
 
+/*BOOSTRAP*/
+
+.container-fluid{
+	height: 100px;
+}
+.container-fluid-1{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.container-fluid-2{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.container-fluid-3{
+	height: 570px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.container-fluid-4{
+	height: 570px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.container-fluid-5{
+	height: 570px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.container-fluid-6{
+	/*height: 600px;
+	width: 100%;
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;*/
+}
+
+
+/*fin*/
+
 .card{
 	margin: 20px;
 	border-radius: 6px;
@@ -203,7 +260,7 @@
 }
 
 button {
-    padding: 10px;
+    /*padding: 10px;*/
     background-color: #007bff;
     color: white;
     border: none;
