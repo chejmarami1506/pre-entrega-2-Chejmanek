@@ -57,12 +57,12 @@ a {
   max-width: 1400px;
   display: flex;
   flex-direction: column;
-  margin-left: 100px; }
+  margin-left: 34px; }
 
 .img-facebook {
   height: 30px;
   width: 30px;
-  margin: 10px 40px 10px; }
+  margin: 10px 10px 10px; }
 
 .img-gmail {
   height: 35px;
@@ -159,6 +159,7 @@ header {
   justify-content: flex-end;
   background-color: lightblue; }
 
+/*COMPONENTS*/
 .menu-icon {
   display: flex;
   flex-direction: column;
@@ -463,8 +464,8 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px;
-  margin-left: 100px; }
+  max-width: 333px;
+  margin-left: 22px; }
 
 .img-0 {
   width: 100%;
@@ -578,6 +579,7 @@ button:hover {
   width: 1.3em;
   fill: #b4b4b4; }
 
+/*MIXINS*/
 /*MEDIA*/
 /*HTML INDEX*/
 @media (max-width: 1024px) {
@@ -629,28 +631,36 @@ button:hover {
 
 @media (max-width: 900px) {
   .search {
-    margin-left: 650px; } }
+    margin-left: 450px; } }
 
 /*HTML CONTACTO */
-/*TABLET*/
-@media (max-width: 977px) and (min-width: 769px) {
+@media (max-width: 1440px) {
+  .div-contactos {
+    margin-left: 20px; } }
+
+@media (max-width: 977px) {
   .div-contactos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; } }
 
 @media (max-width: 768px) {
-  .div-contactos {
-    margin-left: 50px;
-    align-items: center; }
   a {
     font-size: 20px;
     width: 175px; }
   .info-1 {
     width: 80%; } }
 
-@media (max-width: 425) {
+@media (max-width: 720px) {
+  .div-contactos {
+    width: 100%; } }
+
+@media (max-width: 660px) {
+  .div-contactos {
+    flex-wrap: wrap; } }
+
+@media (max-width: 425px) {
   .div-contactos {
     flex-wrap: wrap; }
   .info-1 {
-    font-size: 10px; } }
+    font-size: 30px; } }
