@@ -13,6 +13,12 @@
         height: 75px;
     }
 }
+
+@media (max-width:800px){
+    .h-1{
+        font-size: 35px;
+    }
+}
 @media (max-width:738px){
 .container-fluid-1{
     flex-wrap: wrap;
@@ -26,7 +32,12 @@
     flex-wrap: wrap;
 
 }
+}
 
+@media (max-width:350px){
+    .h-1{
+        font-size: 25px;
+    }
 }
 
 
