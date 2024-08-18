@@ -16,9 +16,7 @@
     transition: all 0.3s;
 }
 
-#menu-toggle {
-    display: none;
-}
+
 
 .nav-menu {
     display: none;
@@ -45,25 +43,4 @@
     color: #fff;
     text-decoration: none;
 }
-
-.nav-menu a:hover {
-    background-color: #555;
-}
-
-#menu-toggle:checked ~ .nav-menu {
-    display: block;
-}
-
-#menu-toggle:checked ~ .menu-icon .bar:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-#menu-toggle:checked ~ .menu-icon .bar:nth-child(2) {
-    opacity: 0;
-}
-
-#menu-toggle:checked ~ .menu-icon .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-}
-
 
