@@ -148,26 +148,113 @@
     .h4-a{
         font-size: 35px;
     }
-    .search{
-        margin-left: 1100px;
-    }
 }
-@media (max-width:1220px){
-    .search{
-        margin-left: 800px;
+@media (max-width:1175px){
+    .adidas-tienda{
+        font-size: 25px;
+        height: 70px;
     }
-}
-@media (max-width:1012px)  and (max-width:980px){
-    .search{
-        margin-left: 700px;
+    .puma-tienda{
+        font-size: 25px;
+        height: 70px;
     }
-}
-@media (max-width:900px){
-    .search{
-        margin-left: 450px;
+    .nike-tienda{
+        font-size: 25px;
+        height: 70px;
+    }
+    .topper-tienda{
+        font-size: 25px;
+        height: 70px;
+    }
+    .h4-a{
+        font-size: 45px;
+        font-weight: bold;
     }
 }
 
+@media (max-width:868px){
+    .container-fluid-10{
+        flex-wrap: wrap;
+    }
+    .container-fluid-11{
+        flex-wrap: wrap;
+    }
+    .container-fluid-12{
+        flex-wrap: wrap;
+    }
+    .container-fluid-13{
+        flex-wrap: wrap;
+    }
+    .adidas-tienda{
+        font-size: 50px;
+        height: 90px;
+    }
+    .puma-tienda{
+        font-size: 50px;
+        height: 90px;
+    }
+    .nike-tienda{
+        font-size: 50px;
+        height: 90px;
+    }
+    .topper-tienda{
+        font-size: 50px;
+        height: 90px;
+    }
+}
+
+@media (max-width:545px){
+    .h3-tienda{
+        font-size: 30px;
+    }
+    .adidas-tienda{
+        font-size: 34px;
+    }
+    .puma-tienda{
+        font-size: 34px;
+    }
+    .nike-tienda{
+        font-size: 34px;
+    }
+    .topper-tienda{
+        font-size: 34px;
+    }
+}
+@media (max-width:500px){
+    .h3-tienda{
+        font-size: 25px;
+        margin: auto;
+    }
+    .adidas-tienda{
+        font-size: 30px;
+    }
+    .puma-tienda{
+        font-size: 30px;
+    }
+    .nike-tienda{
+        font-size: 30px;
+    }
+    .topper-tienda{
+        font-size: 30px;
+    }
+}
+@media (max-width:345px){
+    .h3-tienda{
+        font-size: 20px;
+    }
+    .adidas-tienda{
+        height: 40px;
+    }
+    .puma-tienda{
+        height: 40px;
+    }
+    .nike-tienda{
+        height: 40px;
+    }
+    .topper-tienda{
+        height: 40px;
+    }
+}
 
 /*HTML CONTACTO */
 @media (max-width:1440px){

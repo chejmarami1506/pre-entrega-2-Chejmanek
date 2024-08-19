@@ -74,6 +74,41 @@
 	padding-bottom: 15px;
 	background-color: papayawhip;
 }
+
+/*HTML 4*/
+
+.container-fluid-10{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: rgba(128, 128, 128, 0.616);
+}
+.container-fluid-11{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: rgba(128, 128, 128, 0.616);
+}
+.container-fluid-12{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: rgba(128, 128, 128, 0.616);
+}
+.container-fluid-13{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.616);
+}
 /*fin*/
 
 .card{
@@ -167,14 +202,6 @@
 
 /*NIKE*/
 
-.container-card-1{
-	width: 100%;
-	display: flex;
-	margin: auto;
-    object-fit: contain;
-    background-color: rgba(128, 128, 128, 0.616);
-}
-
 .card-1{
 	width: 100%;
 	margin: 20px;
@@ -214,27 +241,6 @@
     object-fit: contain;
     background-color: rgba(128, 128, 128, 0.616);
 }
-.container-card-4{
-    width: 100%;
-	display: flex;
-	margin: auto;
-    object-fit: contain;
-    background-color: rgba(128, 128, 128, 0.616);
-}
-.container-card-5{
-    width: 100%;
-	display: flex;
-	margin: auto;
-    object-fit: contain;
-    background-color: rgba(128, 128, 128, 0.616);
-}
-.container-card-6{
-    width: 100%;
-	display: flex;
-	margin: auto;
-    object-fit: contain;
-    background-color: rgba(128, 128, 128, 0.616);
-}
 
 .card-2{
 	width: 100%;
@@ -248,9 +254,10 @@
 }
 
 .card-2 img{
-    height: 80%;
+    height: 70%;
     width: 100%;
-    background:#fd122667;
+	object-fit: contain;
+    background-color:#fd122667;
     
 }
 
@@ -260,7 +267,6 @@
 }
 
 button {
-    /*padding: 10px;*/
     background-color: #007bff;
     color: white;
     border: none;
