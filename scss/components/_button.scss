@@ -278,13 +278,37 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
+.button-index{
+	list-style: none;
+	display: flex;
+	background-color: gray;
+	padding: 10px;
+}
+.button-adidas{
+	list-style: none;
+	display: flex;
+	background-color: gray;
+	padding: 10px;
+}
+.button-nike{
+	list-style: none;
+	display: flex;
+	background-color: gray;
+	padding: 10px;
+}
+.button-tineda{
+	list-style: none;
+	display: flex;
+	background-color: gray;
+	padding: 10px;
+}
+/*CONTACTO*/
 .contact-form-container {
     background: white;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 333px;
-	margin-left: 22px;
+    max-width: 300px;
+	margin-right: 22px;
 }

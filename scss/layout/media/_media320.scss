@@ -259,20 +259,22 @@
 /*HTML CONTACTO */
 @media (max-width:1440px){
     .div-contactos{
-        margin-left: 20px;
+        width: 60%;
     }
 }
 @media (max-width:977px){
-    .div-contactos{
+    .contact-form-container form{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+    }
+    .h1-contacto{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 @media (max-width:768px){
     a{
         font-size: 20px;
-        width: 175px;
     }
     .info-1{
         width: 80%;
@@ -286,16 +288,10 @@
 }
 
 @media (max-width:660px){
-    .div-contactos{
-        flex-wrap: wrap;
-    }
     
 }
 
 @media (max-width:425px){
-    .div-contactos{
-        flex-wrap: wrap;
-    }
     .info-1{
         font-size: 30px;
     }

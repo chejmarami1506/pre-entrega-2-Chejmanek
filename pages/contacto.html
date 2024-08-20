@@ -79,38 +79,54 @@
           </nav>
 </header>
     <main class="main">
-        <div class="contact-form-container">
-            <h1 class="h1-contacto">Contacto</h1>
-            <form action="enviar_formulario.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-    
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="asunto">Asunto:</label>
-                <input type="text" id="asunto" name="asunto" required>
-    
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-    
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-
         <div class="div-contactos">
-            <h2  class="info-1"><img class="img-facebook" src="../assets/img/facebook.png" alt="">Facebook</h2>
-                <a href="https://www.facebook.com/?locale=es_LA"target="_blank">www.facebook.com</a>
+            <h2  class="info-1">
+                <a href="https://www.facebook.com/?locale=es_LA"target="_blank">
+                  <img class="img-facebook" src="../assets/img/facebook.png" alt="Facebook logo">
+                </a>
+                <p>Facebook</p>
+            </h2>
 
-            <h2 class="info-1"><img class="img-gmail" src="../assets/img/gmail.png" alt="">Gmail</h2>
-                <a href="https://mail.google.com/mail/u/0/?hl=es-419#inbox" target="_blank">www.gmail.com</a>
+            <h2 class="info-1">
+                <a href="https://mail.google.com/mail/u/0/?hl=es-419#inbox" target="_blank">
+                  <img class="img-gmail" src="../assets/img/gmail.png" alt="Gmail logo">
+                </a>
+                <p>Gmail</p>
+            </h2>
 
-            <h2 class="info-1"><img class="img-instagram" src="../assets/img/instagram.png" alt="">Intagram</h2>
-                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179" target="_blank">www.instagram.com</a>
+            <h2 class="info-1">
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179" target="_blank">
+                  <img class="img-instagram" src="../assets/img/instagram.png" alt="Intagram logo">
+                </a>
+                <p>Intagram</p>
+            </h2>
 
-            <h2 class="info-1"><img class="img-twitter" src="../assets/img/twitterX.png" alt="">Twitter</h2>
-                <a href="https://x.com/?lang=es" target="_blank">www.twitter.com</a>
+            <h2 class="info-1">
+                <a href="https://x.com/?lang=es" target="_blank">
+                  <img class="img-twitter" src="../assets/img/twitterX.png" alt="Twitter logo">
+                </a>
+                <p>Twitter</p>
+            </h2>
         </div>
+
+        <div class="contact-form-container">
+          <h1 class="h1-contacto">Contacto</h1>
+          <form action="enviar_formulario.php" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+  
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+  
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required>
+  
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+  
+              <button type="submit">Enviar</button>
+          </form>
+      </div>
     </main>
     <footer>
         <div>

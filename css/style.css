@@ -91,7 +91,7 @@ a {
 .info-1 {
   font-size: 40px;
   background-color: beige;
-  width: 70%;
+  width: 90%;
   margin-bottom: 40px;
   background-repeat: round;
   display: flex;
@@ -551,14 +551,39 @@ button {
 button:hover {
   background-color: #0056b3; }
 
+.button-index {
+  list-style: none;
+  display: flex;
+  background-color: gray;
+  padding: 10px; }
+
+.button-adidas {
+  list-style: none;
+  display: flex;
+  background-color: gray;
+  padding: 10px; }
+
+.button-nike {
+  list-style: none;
+  display: flex;
+  background-color: gray;
+  padding: 10px; }
+
+.button-tineda {
+  list-style: none;
+  display: flex;
+  background-color: gray;
+  padding: 10px; }
+
+/*CONTACTO*/
 .contact-form-container {
   background: white;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 333px;
-  margin-left: 22px; }
+  max-width: 300px;
+  margin-right: 22px; }
 
 .img-0 {
   width: 100%;
@@ -855,18 +880,19 @@ button:hover {
 /*HTML CONTACTO */
 @media (max-width: 1440px) {
   .div-contactos {
-    margin-left: 20px; } }
+    width: 60%; } }
 
 @media (max-width: 977px) {
-  .div-contactos {
+  .contact-form-container form {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; } }
+    flex-wrap: wrap; }
+  .h1-contacto {
+    display: flex;
+    flex-wrap: wrap; } }
 
 @media (max-width: 768px) {
   a {
-    font-size: 20px;
-    width: 175px; }
+    font-size: 20px; }
   .info-1 {
     width: 80%; } }
 
@@ -874,12 +900,6 @@ button:hover {
   .div-contactos {
     width: 100%; } }
 
-@media (max-width: 660px) {
-  .div-contactos {
-    flex-wrap: wrap; } }
-
 @media (max-width: 425px) {
-  .div-contactos {
-    flex-wrap: wrap; }
   .info-1 {
     font-size: 30px; } }
