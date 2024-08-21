@@ -54,10 +54,8 @@ a {
   padding: 20px; }
 
 .div-contactos {
-  width: 70%;
+  width: 60%;
   max-width: 1400px;
-  display: flex;
-  flex-direction: column;
   margin-left: 34px; }
 
 .img-facebook {
@@ -92,7 +90,6 @@ a {
   font-size: 40px;
   background-color: beige;
   width: 90%;
-  margin-bottom: 40px;
   background-repeat: round;
   display: flex;
   justify-content: center;
@@ -582,8 +579,7 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 300px;
-  margin-right: 22px; }
+  max-width: 330px; }
 
 .img-0 {
   width: 100%;
@@ -880,26 +876,59 @@ button:hover {
 /*HTML CONTACTO */
 @media (max-width: 1440px) {
   .div-contactos {
-    width: 60%; } }
+    width: 70%; }
+  .contact-form-container {
+    height: 70%;
+    margin-right: 40px; }
+  .info-1 {
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 60px;
+    border-radius: 20px; }
+  .img-facebook {
+    height: 48px;
+    width: 50px; }
+  .img-gmail {
+    height: 48px;
+    width: 50px; }
+  .img-instagram {
+    height: 48px;
+    width: 50px; }
+  .img-twitter {
+    height: 48px;
+    width: 50px; } }
 
 @media (max-width: 977px) {
-  .contact-form-container form {
-    display: flex;
-    flex-wrap: wrap; }
-  .h1-contacto {
-    display: flex;
-    flex-wrap: wrap; } }
-
-@media (max-width: 768px) {
-  a {
-    font-size: 20px; }
+  .main {
+    flex-direction: column; }
   .info-1 {
-    width: 80%; } }
-
-@media (max-width: 720px) {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 20px; }
   .div-contactos {
-    width: 100%; } }
+    width: 50%;
+    margin-left: 0; }
+  .img-facebook {
+    height: 33px;
+    width: 30px;
+    margin-right: 20px; }
+  .img-gmail {
+    height: 33px;
+    width: 30px;
+    margin-right: 20px; }
+  .img-instagram {
+    height: 33px;
+    width: 30px;
+    margin-right: 20px; }
+  .img-twitter {
+    height: 33px;
+    width: 30px;
+    margin-right: 20px; } }
 
-@media (max-width: 425px) {
-  .info-1 {
-    font-size: 30px; } }
+@media (max-width: 511px) {
+  .div-contactos {
+    width: 80%; }
+  .contact-form-container {
+    max-width: 270px;
+    margin-right: 40px; } }

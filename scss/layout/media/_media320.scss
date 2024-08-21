@@ -259,40 +259,76 @@
 /*HTML CONTACTO */
 @media (max-width:1440px){
     .div-contactos{
-        width: 60%;
+        width: 70%;
     }
+    .contact-form-container{
+        height: 70%;
+        margin-right: 40px;
+    }
+    .info-1{
+        margin-bottom: 40px;
+        padding: 30px;
+        font-size: 60px;
+        border-radius: 20px;
+    }
+    .img-facebook{
+        height: 48px;
+        width: 50px;
+    }
+    .img-gmail{
+        height: 48px;
+        width: 50px;
+    }
+    .img-instagram{
+        height: 48px;
+        width: 50px;
+    }
+    .img-twitter{
+        height: 48px;
+        width: 50px;
+        }
 }
 @media (max-width:977px){
-    .contact-form-container form{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .h1-contacto{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-@media (max-width:768px){
-    a{
-        font-size: 20px;
+    .main{
+        flex-direction: column
     }
     .info-1{
+        margin-top: 20px;
+        padding: 5px;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    .div-contactos{
+        width: 50%;
+        margin-left: 0;
+    }
+    .img-facebook{
+        height: 33px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .img-gmail{
+        height: 33px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .img-instagram{
+        height: 33px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .img-twitter{
+        height:33px;
+        width: 30px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:511px){
+    .div-contactos{
         width: 80%;
     }
-}
-
-@media (max-width:720px){
-    .div-contactos{
-        width: 100%;
-    }
-}
-
-@media (max-width:660px){
-    
-}
-
-@media (max-width:425px){
-    .info-1{
-        font-size: 30px;
+    .contact-form-container{
+        max-width: 270px;
+        margin-right: 40px;
     }
 }
