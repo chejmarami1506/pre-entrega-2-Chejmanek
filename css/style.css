@@ -299,6 +299,12 @@ header {
   color: #fff;
   text-decoration: none; }
 
+.nav-link:hover {
+  transform: scale(1.3); }
+
+.navbar-brand:hover {
+  transform: scale(1.1); }
+
 /*BOOSTRAP*/
 /*Cards*/
 .container-fluid {
